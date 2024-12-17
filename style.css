@@ -1,0 +1,219 @@
+/* Global Style */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff0f5; /* Light pink background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+h1, h2 {
+    text-align: center;
+    color: #d81b60; /* Deep pink */
+    font-weight: bold;
+}
+
+/* Form Style */
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffe6f0; /* Light pink form background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(216, 27, 96, 0.3); /* Soft pink shadow */
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+    color: #d81b60; /* Deep pink labels */
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f48fb1; /* Light pink border */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ffe6f0; /* Light pink input background */
+    color: #d81b60; /* Pink text */
+}
+
+form input:focus, form textarea:focus {
+    border-color: #d81b60; /* Deep pink border focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(216, 27, 96, 0.5);
+}
+
+form button {
+    background-color: #d81b60; /* Deep pink button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ad1457; /* Darker pink on hover */
+}
+
+/* Button Style */
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #d81b60; /* Deep pink */
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+a:hover {
+    background-color: #ad1457; /* Darker pink on hover */
+}
+
+/* Table Style */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: #ffe6f0; /* Light pink background */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(216, 27, 96, 0.3);
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 2px solid #f48fb1; /* Light pink border */
+    text-align: left;
+    color: #d81b60; /* Deep pink text */
+}
+
+table th {
+    background-color: #d81b60; /* Deep pink */
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffd6e7; /* Softer pink for alternate rows */
+}
+
+table tr:hover {
+    background-color: #ffc1e3; /* Softer pink on hover */
+    cursor: pointer;
+}
+
+/* Alert Messages */
+p {
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ffe6f0; /* Light pink background */
+    color: #d81b60; /* Deep pink text */
+    border: 1px solid #f48fb1; /* Pink border */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d81b60; /* Deep pink */
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffe6f0; /* Light pink on hover */
+}
+/* Gambar background hanya untuk halaman login */
+body.login-page {
+    font-family: 'Arial', sans-serif;
+    background: url('beauty.jpg') no-repeat center center fixed; /* Gambar background pada halaman login */
+    background-size: cover; /* Gambar mencakup seluruh layar */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk banner selamat datang */
+.welcome-banner {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 240, 245, 0.8); /* Transparansi untuk teks */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-banner h1 {
+    color: #d81b60; /* Warna pink */
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.welcome-banner p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Gaya untuk kotak login */
+.login-container {
+    max-width: 400px;
+    margin: 20px auto;
+    background: rgba(255, 240, 245, 0.9); /* Warna pink dengan transparansi */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+form h2 {
+    color: #d81b60;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f48fb1; /* Warna pink */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #d81b60; /* Pink tua */
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ad1457; /* Pink lebih gelap */
+}
